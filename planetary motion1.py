@@ -84,7 +84,7 @@ def planets():
              u -=2
              v = -math.floor(math.sqrt((125**2)*(1-((u-580)**2)/(200**2)))-350)
         '''
-       #Venus's motion
+       #Venus's motion                                                              #changes to be made soon
         if m<=879 and n>=349:    
              m +=1.75
              n = math.floor(math.sqrt((150**2)*(1-((m-625)**2)/(225**2)))+360)
